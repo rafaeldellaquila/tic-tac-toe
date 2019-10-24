@@ -1,3 +1,9 @@
-.App {
+.action {
+  color: #c32361;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: bold 14px "Montserrat", sans-serif;
+  font-weight: bold;
   text-align: right;
+  font-size: 14px;
 }
