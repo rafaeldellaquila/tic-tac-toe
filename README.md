@@ -1,5 +1,3 @@
-## Jogo da velha
+## Tic tac toe
 
-Jogo da velha sendo feito com react.js para estudos.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tic tac toe game, based on React.js. Its my first project with a library using ITCSS AND RSCSS for classes and folder architeture.
