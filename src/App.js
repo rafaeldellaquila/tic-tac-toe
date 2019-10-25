@@ -1,8 +1,14 @@
 import React from "react";
-import AboutMe from "./objects/about";
+import Logo from "./objects/Logo";
+import About from "./objects/About";
 
 function App() {
-  return <AboutMe />;
+  return (
+    <>
+      <Logo />
+      <About />
+    </>
+  );
 }
 
 export default App;

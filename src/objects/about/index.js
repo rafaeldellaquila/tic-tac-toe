@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const aboutMe = () => {
+const About = () => {
   return (
     <a className="about" href="#to-do">
       Sobre
@@ -9,4 +9,4 @@ const aboutMe = () => {
   );
 };
 
-export default aboutMe;
+export default About;
