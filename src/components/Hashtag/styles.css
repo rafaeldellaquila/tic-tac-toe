@@ -1,0 +1,17 @@
+.board {
+  padding: 15px;
+}
+.hashtag {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3.5px;
+  background-color: var(--color-secondary);
+}
+
+.hashtag > .item {
+  background-color: var(--color-tertiary);
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.app {
+  text-align: center;
+}
+
+.app > .header {
+  width: 80vw;
+  margin: 0 auto 80px;
+}
+.app > .board {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 85vw;
+  height: 85vw;
+}
