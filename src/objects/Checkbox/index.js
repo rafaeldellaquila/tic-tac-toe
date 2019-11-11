@@ -4,7 +4,7 @@ import Label from "../Label";
 
 const Checkbox = ({ id = "", value = "", content = "" }) => (
   <>
-    <Input id={id} value={value} content={content} type="checkbox" />
+    <Input id={id} type="checkbox" value={value} content={content} />
     <Label htmlFor={id} content={content} />
   </>
 );
