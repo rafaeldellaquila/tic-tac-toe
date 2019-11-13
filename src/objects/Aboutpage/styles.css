@@ -1,0 +1,9 @@
+.aboutpage {
+  background-color: var(--color-tertiary);
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

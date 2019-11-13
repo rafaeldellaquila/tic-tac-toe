@@ -1,0 +1,36 @@
+.icon-close {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.icon-close::before,
+.icon-close::after {
+  display: inherit;
+  content: "";
+  width: 27px;
+  height: 4px;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+  position: absolute;
+}
+
+.icon-close::before {
+  top: -1px;
+  left: 2px;
+  transform: rotate(45deg);
+  transform-origin: left top;
+}
+
+.icon-close::after {
+  top: -1px;
+  right: 2px;
+  transform: rotate(-45deg);
+  transform-origin: right top;
+}
+
+.icon-close > .content {
+  display: inherit;
+  text-indent: -9999px;
+}

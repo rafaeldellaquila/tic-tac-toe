@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
-import Logo from "../../objects/Logo";
+import LogoTicTacToe from "../../objects/LogoTicTacToe";
 import About from "../../objects/About";
 import Menu from "../../objects/Menu";
 
 const Header = () => (
   <header className="header">
-    <Logo />
+    <LogoTicTacToe />
     <About />
     <Menu />
   </header>
