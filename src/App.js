@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
-import Profile from "./img/avatar.png";
 import Header from "./components/Header";
 import CheckBox from "./objects/CheckBox";
 import AboutPage from "./objects/AboutPage";
-import AvatarProfile from "./objects/AvatarProfile";
 import Hashtag from "./components/Hashtag";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
