@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 import LogoTicTacToe from "../../objects/LogoTicTacToe";
-import About from "../../objects/About";
+import AboutLink from "../../objects/AboutLink";
 import Menu from "../../objects/Menu";
 
 const Header = () => (
   <header className="header">
     <LogoTicTacToe />
-    <About />
+    <AboutLink />
     <Menu />
   </header>
 );

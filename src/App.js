@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Checkbox from "./objects/Checkbox";
+import CheckBox from "./objects/CheckBox";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
-import Aboutpage from "./objects/Aboutpage";
-import About from "./objects/About";
+import AboutPage from "./objects/AboutPage";
+import AboutLink from "./objects/AboutLink";
 import IconClose from "./objects/IconClose";
 import LogoTicTacToe from "./objects/LogoTicTacToe";
 
@@ -12,12 +12,12 @@ const App = () => (
   <main className="app">
     <Header />
     <Hashtag />
-    <Checkbox id="show" value="show" content="Mostrar eventos" />
-    <Aboutpage>
-      <LogoTicTacToe />
-      <About />
+    <CheckBox id="show" value="show" content="Mostrar eventos" />
+    <AboutPage>
+      <LogoTicTacToe negative />
+      <AboutLink className="-light" />
       <IconClose />
-    </Aboutpage>
+    </AboutPage>
   </main>
 );
 

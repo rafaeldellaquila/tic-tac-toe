@@ -3,11 +3,11 @@ import Input from "../Input";
 import Label from "../Label";
 import "./styles.css";
 
-const Checkbox = ({ id = "", value = "", content = "" }) => (
+const CheckBox = ({ id = "", value = "", content = "" }) => (
   <>
-    <Input id={id} type="checkbox" value={value} content={content} />
+    <Input id={id} type="check-box" value={value} content={content} />
     <Label htmlFor={id} content={content} />
   </>
 );
 
-export default Checkbox;
+export default CheckBox;
