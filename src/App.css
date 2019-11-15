@@ -4,7 +4,7 @@
 
 .app > .header {
   width: 80vw;
-  margin: 0 auto 80px;
+  margin: 0 auto var(--space-big);
 }
 .app > .board {
   display: inline-block;

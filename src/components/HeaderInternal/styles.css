@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: var(--space-y-side) var(--space-x-side);
 }
 
