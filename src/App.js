@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import CheckBox from "./objects/CheckBox";
+import Profile from "./img/avatar.png";
 import Header from "./components/Header";
-import Hashtag from "./components/Hashtag";
+import CheckBox from "./objects/CheckBox";
 import AboutPage from "./objects/AboutPage";
-import AboutLink from "./objects/AboutLink";
-import IconClose from "./objects/IconClose";
-import LogoTicTacToe from "./objects/LogoTicTacToe";
+import AvatarProfile from "./objects/AvatarProfile";
+import Hashtag from "./components/Hashtag";
+import HeaderInternal from "./components/HeaderInternal";
+import ProfileUser from "./components/ProfileUser";
 
 const App = () => (
   <main className="app">
@@ -14,9 +15,8 @@ const App = () => (
     <Hashtag />
     <CheckBox id="show" value="show" content="Mostrar eventos" />
     <AboutPage>
-      <LogoTicTacToe negative />
-      <AboutLink className="-light" />
-      <IconClose />
+      <HeaderInternal />
+      <ProfileUser />
     </AboutPage>
   </main>
 );

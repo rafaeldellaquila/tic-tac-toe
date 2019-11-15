@@ -1,0 +1,12 @@
+.header-internal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--space-y-side) var(--space-x-side);
+}
+
+.header-internal > .about-link {
+  margin-left: auto;
+  margin-right: var(--space-mid);
+}
