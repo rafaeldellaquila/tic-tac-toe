@@ -7,12 +7,12 @@
 
 .app > .header-game {
   width: 80vw;
-  margin: 0 auto var(--space-big);
+  margin: 0 auto var(--space-biggest);
 }
 .app > .board-game {
   display: inline-block;
   box-sizing: border-box;
   width: 85vw;
   height: 85vw;
-  margin-bottom: 20px;
+  margin-bottom: var(--space-middest);
 }

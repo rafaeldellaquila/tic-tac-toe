@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-y-side) var(--space-x-side);
+  padding: var(--space-middest) var(--space-big);
 }
 
 .header-internal > .about-link {

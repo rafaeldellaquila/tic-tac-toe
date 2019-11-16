@@ -3,7 +3,7 @@
 }
 
 .profile-user > .avatar {
-  margin-bottom: var(--space-y-side);
+  margin-bottom: var(--space-middest);
 }
 
 .profile-user .avatar-profile {
@@ -20,7 +20,7 @@
 .profile-user > .description {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: var(--space-big);
+  margin-bottom: var(--space-biggest);
   line-height: 1.5;
 }
 

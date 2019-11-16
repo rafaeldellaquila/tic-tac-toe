@@ -1,0 +1,7 @@
+.log-game {
+  background-color: var(--color-tertiary);
+  border-radius: 2em;
+  padding: var(--space-smallest) var(--space-middest);
+  font-size: var(--size-min);
+  color: var(--color-primary);
+}

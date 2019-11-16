@@ -1,7 +1,10 @@
 :root {
+  --space-radius-small: 2px;
   --space-radius: 5px;
+  --space-smallest: 5px;
   --space-mid: 10px;
-  --space-x-side: 35px;
-  --space-y-side: 25px;
-  --space-big: 80px;
+  --space-midding: 15px;
+  --space-middest: 25px;
+  --space-big: 35px;
+  --space-biggest: 80px;
 }

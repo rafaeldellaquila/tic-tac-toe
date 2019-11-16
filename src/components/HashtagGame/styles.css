@@ -1,5 +1,5 @@
 .board-game {
-  padding: 15px;
+  padding: var(--space-midding);
 }
 .hashtag-game {
   height: 100%;
@@ -57,25 +57,25 @@
 
 .hashtag-game > .item:nth-child(2)::before,
 .hashtag-game > .item:nth-child(2)::after {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border-top-left-radius: var(--space-radius-small);
+  border-top-right-radius: var(--space-radius-small);
 }
 
 .hashtag-game > .item:nth-child(4)::before,
 .hashtag-game > .item:nth-child(4)::after {
-  border-start-start-radius: 2px;
-  border-end-start-radius: 2px;
+  border-start-start-radius: var(--space-radius-small);
+  border-end-start-radius: var(--space-radius-small);
 }
 .hashtag-game > .item:nth-child(6)::before,
 .hashtag-game > .item:nth-child(6)::after {
-  border-start-end-radius: 2px;
-  border-end-end-radius: 2px;
+  border-start-end-radius: var(--space-radius-small);
+  border-end-end-radius: var(--space-radius-small);
 }
 
 .hashtag-game > .item:nth-child(8)::before,
 .hashtag-game > .item:nth-child(8)::after {
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: var(--space-radius-small);
+  border-bottom-right-radius: var(--space-radius-small);
 }
 
 .hashtag-game > .item:nth-child(5) {
