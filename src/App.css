@@ -16,3 +16,15 @@
   height: 85vw;
   margin-bottom: var(--space-middest);
 }
+
+.app > .label-game {
+  margin-bottom: var(--space-big);
+}
+
+.app > .history-game {
+  display: none;
+}
+
+.app > .history-game.-active {
+  display: block;
+}

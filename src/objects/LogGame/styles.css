@@ -5,3 +5,8 @@
   font-size: var(--size-min);
   color: var(--color-primary);
 }
+
+.log-game.-end {
+  background-color: var(--color-draw);
+  text-transform: uppercase;
+}

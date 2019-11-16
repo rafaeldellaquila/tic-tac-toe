@@ -2,26 +2,35 @@ import React, { useState } from "react";
 import "./App.css";
 
 import InputCheckbox from "./objects/InputCheckbox";
-import LogGame from "./objects/LogGame";
 import AboutPage from "./objects/AboutPage";
 
 import HeaderGame from "./components/HeaderGame";
 import HashtagGame from "./components/HashtagGame";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
+import HistoryGame from "./components/HistoryGame";
 
 const App = () => {
   const [activeAbout, setActiveAbout] = useState("");
+  const [activeHistoryGame, setHistoryGame] = useState("");
 
   const handleClickAdd = () => setActiveAbout("-active");
   const handleClickRemove = () => setActiveAbout("");
 
+  const handleClick = () => {
+    setHistoryGame(old => (old === "-active" ? "" : "-active"));
+  };
   return (
     <main id="main" className="app">
       <HeaderGame onClick={handleClickAdd} />
       <HashtagGame />
-      <InputCheckbox id="show" value="show" content="Mostrar eventos" />
-      <LogGame content="Adicionou O" />
+      <InputCheckbox
+        onClick={handleClick}
+        id="show"
+        value="show"
+        content="Mostrar eventos"
+      />
+      <HistoryGame className={activeHistoryGame} />
       <AboutPage className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
         <ProfileUser />
