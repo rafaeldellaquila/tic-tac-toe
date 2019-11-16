@@ -6,7 +6,7 @@
   width: 80vw;
   margin: 0 auto var(--space-big);
 }
-.app > .board {
+.app > .board-game {
   display: inline-block;
   box-sizing: border-box;
   width: 85vw;

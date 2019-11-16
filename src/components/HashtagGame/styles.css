@@ -1,0 +1,84 @@
+.board-game {
+  padding: 15px;
+}
+.hashtag-game {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* gap: 4px; */
+  background-color: var(--color-secondary);
+}
+
+.hashtag-game > .item {
+  background-color: var(--color-tertiary);
+  display: flex;
+  justify-content: center;
+}
+
+.hashtag-game > .item:nth-child(2)::before,
+.hashtag-game > .item:nth-child(2)::after,
+.hashtag-game > .item:nth-child(4)::before,
+.hashtag-game > .item:nth-child(4)::after,
+.hashtag-game > .item:nth-child(6)::before,
+.hashtag-game > .item:nth-child(6)::after,
+.hashtag-game > .item:nth-child(8)::before,
+.hashtag-game > .item:nth-child(8)::after {
+  content: "";
+  background-color: var(--color-secondary);
+}
+
+.hashtag-game > .item:nth-child(2)::before,
+.hashtag-game > .item:nth-child(2)::after,
+.hashtag-game > .item:nth-child(8)::before,
+.hashtag-game > .item:nth-child(8)::after {
+  width: 4px;
+  height: 100%;
+}
+
+.hashtag-game > .item:nth-child(4)::before,
+.hashtag-game > .item:nth-child(4)::after,
+.hashtag-game > .item:nth-child(6)::before,
+.hashtag-game > .item:nth-child(6)::after {
+  width: 100%;
+  height: 4px;
+}
+
+.hashtag-game > .item:nth-child(2),
+.hashtag-game > .item:nth-child(4),
+.hashtag-game > .item:nth-child(6),
+.hashtag-game > .item:nth-child(8) {
+  justify-content: space-between;
+}
+
+.hashtag-game > .item:nth-child(4),
+.hashtag-game > .item:nth-child(6) {
+  flex-direction: column;
+}
+
+.hashtag-game > .item:nth-child(2)::before,
+.hashtag-game > .item:nth-child(2)::after {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.hashtag-game > .item:nth-child(4)::before,
+.hashtag-game > .item:nth-child(4)::after {
+  border-start-start-radius: 2px;
+  border-end-start-radius: 2px;
+}
+.hashtag-game > .item:nth-child(6)::before,
+.hashtag-game > .item:nth-child(6)::after {
+  border-start-end-radius: 2px;
+  border-end-end-radius: 2px;
+}
+
+.hashtag-game > .item:nth-child(8)::before,
+.hashtag-game > .item:nth-child(8)::after {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.hashtag-game > .item:nth-child(5) {
+  border: 4.5px solid var(--color-secondary);
+}

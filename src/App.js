@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
-import CheckBox from "./objects/CheckBox";
+import HeaderGame from "./components/HeaderGame";
+import InputCheckbox from "./objects/InputCheckbox";
 import AboutPage from "./objects/AboutPage";
-import Hashtag from "./components/Hashtag";
+import HashtagGame from "./components/HashtagGame";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
 
@@ -15,9 +15,9 @@ const App = () => {
 
   return (
     <main className="app">
-      <Header onClick={handleClickAdd} />
-      <Hashtag />
-      <CheckBox id="show" value="show" content="Mostrar eventos" />
+      <HeaderGame onClick={handleClickAdd} />
+      <HashtagGame />
+      <InputCheckbox id="show" value="show" content="Mostrar eventos" />
       <AboutPage className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
         <ProfileUser />
