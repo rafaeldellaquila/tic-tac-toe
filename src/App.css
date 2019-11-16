@@ -1,8 +1,11 @@
 .app {
   text-align: center;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
 }
 
-.app > .header {
+.app > .header-game {
   width: 80vw;
   margin: 0 auto var(--space-big);
 }
