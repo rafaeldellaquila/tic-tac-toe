@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.css";
 import LogGame from "../../objects/LogGame";
 
-const HistoryGame = ({ className }) => (
-  <ol className={`history-game ${className}`}>
+const HistoryGame = () => (
+  <ol className="history-game">
     <li className="action">
       <LogGame content="Adicionou X" />
     </li>
