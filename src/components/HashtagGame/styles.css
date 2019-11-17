@@ -81,3 +81,7 @@
 .hashtag-game > .item:nth-child(5) {
   border: 4.5px solid var(--color-secondary);
 }
+
+.hashtag-game .player-game {
+  flex-basis: 100%;
+}
