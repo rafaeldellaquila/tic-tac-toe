@@ -1,6 +1,6 @@
 import React from "react";
-import TicTacToe from "../../img/logo.png";
-import TicTacToeNegative from "../../img/logo-negative.png";
+import TicTacToe from "../../img/logo.svg";
+import TicTacToeNegative from "../../img/logo-negative.svg";
 
 const LogoTicTacToe = ({ negative = false }) => (
   <img

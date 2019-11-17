@@ -1,6 +1,7 @@
 body {
   background-color: var(--color-zero);
   font-family: "Montserrat", sans-serif;
+  min-width: 290px;
 }
 
 ::selection {

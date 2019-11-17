@@ -1,4 +1,6 @@
 :root {
   --size-min: 14px;
+  --size-med: 18px;
   --size-big: 24px;
+  --size-very-big: 38px;
 }

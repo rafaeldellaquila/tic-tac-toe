@@ -4,8 +4,28 @@
   align-items: center;
   padding: var(--space-middest) var(--space-big);
 }
-
+.header-internal > .logo-tictactoe {
+  width: 135px;
+}
 .header-internal > .about-link {
   margin-left: auto;
   margin-right: var(--space-mid);
+}
+@media (min-width: 740px) {
+  .header-internal {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-internal > .logo-tictactoe {
+    width: 235px;
+  }
+
+  .header-internal > .about-link {
+    font-size: var(--size-med);
+  }
+
+  .header-internal > .menu-game {
+    width: 30px;
+  }
 }

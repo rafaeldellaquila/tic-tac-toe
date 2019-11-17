@@ -5,6 +5,10 @@
   padding: var(--space-middest) var(--space-big);
 }
 
+.header-game > .logo-tictactoe {
+  width: 135px;
+}
+
 .header-game > .about-link {
   margin-left: auto;
   margin-right: var(--space-mid);
@@ -12,4 +16,22 @@
 
 .header-game > .menu-game {
   width: 25px;
+}
+
+@media (min-width: 740px) {
+  .header-game {
+    background-color: rgba(255, 131, 149, 0.3); /*--color-secondary*/
+  }
+
+  .header-game > .logo-tictactoe {
+    width: 235px;
+  }
+
+  .header-game > .about-link {
+    font-size: var(--size-med);
+  }
+
+  .header-game > .menu-game {
+    width: 30px;
+  }
 }

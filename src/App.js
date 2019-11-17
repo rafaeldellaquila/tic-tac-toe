@@ -9,6 +9,7 @@ import HashtagGame from "./components/HashtagGame";
 import HeaderInternal from "./components/HeaderInternal";
 import ProfileUser from "./components/ProfileUser";
 import HistoryGame from "./components/HistoryGame";
+import WrapperHashtagHistory from "./objects/WrapperHashtagHistory";
 
 const App = () => {
   const [activeAbout, setActiveAbout] = useState("");
@@ -24,9 +25,11 @@ const App = () => {
   return (
     <main id="main" className="app">
       <HeaderGame onClick={handleClickAdd} />
-      <HashtagGame callback={addHistory} />
-      <InputCheckbox id="show" value="show" content="Mostrar eventos" />
-      <HistoryGame history={history} />
+      <WrapperHashtagHistory>
+        <HashtagGame callback={addHistory} />
+        <InputCheckbox id="show" value="show" content="Mostrar eventos" />
+        <HistoryGame history={history} />
+      </WrapperHashtagHistory>
       <AboutPage className={activeAbout}>
         <HeaderInternal onClick={handleClickRemove} />
         <ProfileUser />
