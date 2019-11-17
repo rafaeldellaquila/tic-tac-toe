@@ -3,8 +3,8 @@ import "./styles.css";
 import BoardGame from "../../objects/BoardGame";
 import PlayerGame from "../../objects/PlayerGame";
 
-const HashtagGame = () => {
-  const [nextPlayer, setNextPlayer] = useState("ex");
+const HashtagGame = ({ callback }) => {
+  const [nextPlayer, setNextPlayer] = useState("x");
   const [players, setPlayers] = useState([
     { id: 1, content: "" },
     { id: 2, content: "" },
@@ -23,7 +23,10 @@ const HashtagGame = () => {
         player.id === id ? { id, content: nextPlayer } : player
       )
     );
-    setNextPlayer(old => (old === "ex" ? "os" : "ex"));
+
+    callback(nextPlayer);
+
+    setNextPlayer(old => (old === "x" ? "o" : "x"));
   };
 
   return (

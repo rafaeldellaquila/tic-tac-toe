@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
-import Ex from "../../img/Ex.png";
-import Os from "../../img/Os.png";
+import x from "../../img/Ex.png";
+import o from "../../img/Os.png";
 
 const PlayerGame = ({ content = "" }) => {
   let players = [];
   players[""] = "";
-  players["ex"] = Ex;
-  players["os"] = Os;
+  players["x"] = x;
+  players["o"] = o;
 
   return (
     <button className="player-game">
