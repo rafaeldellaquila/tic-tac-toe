@@ -23,7 +23,6 @@ const HashtagGame = () => {
         player.id === id ? { id, content: nextPlayer } : player
       )
     );
-
     setNextPlayer(old => (old === "ex" ? "os" : "ex"));
   };
 

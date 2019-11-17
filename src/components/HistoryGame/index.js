@@ -2,32 +2,13 @@ import React from "react";
 import "./styles.css";
 import LogGame from "../../objects/LogGame";
 
-const HistoryGame = () => (
+const HistoryGame = ({ history }) => (
   <ol className="history-game">
-    <li className="action">
-      <LogGame content="Adicionou X" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou O" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou X" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou O" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou X" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou O" />
-    </li>
-    <li className="action">
-      <LogGame content="Adicionou X" />
-    </li>
-    <li className="action">
-      <LogGame className="-end" content="Empate!" />
-    </li>
+    {history.map((content, key) => (
+      <li key={key} className="action">
+        <LogGame content={content} />
+      </li>
+    ))}
   </ol>
 );
 
