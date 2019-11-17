@@ -8,6 +8,9 @@
   align-items: center;
 }
 
+.label-game:hover {
+  text-decoration: underline;
+}
 .label-game::before {
   content: "";
   border: 2px solid var(--color-secondary);

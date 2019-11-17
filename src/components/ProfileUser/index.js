@@ -2,10 +2,10 @@ import React from "react";
 import "./styles.css";
 
 import Profile from "../../img/avatar.png";
-import Github from "../../img/icon-github.png";
-import Linkedin from "../../img/icon-linkedin.png";
-import Instagram from "../../img/icon-instagram.png";
-import Twitter from "../../img/icon-twitter.png";
+import Github from "../../img/icon-github.svg";
+import Linkedin from "../../img/icon-linkedin.svg";
+import Instagram from "../../img/icon-instagram.svg";
+import Twitter from "../../img/icon-twitter.svg";
 
 import AvatarProfile from "../../objects/AvatarProfile";
 import SocialIcons from "../../objects/SocialIcons";

@@ -50,15 +50,30 @@
     display: inline-flex;
     justify-content: center;
     position: relative;
+    transition: transform 200ms linear;
   }
 
-  .app .board-game {
-    margin-right: 50px;
+  .app > .wrapper-hashtaghistory.-active {
+    transform: translateX(-20%);
   }
 
   .app .label-game {
     position: absolute;
     top: 370px;
     left: 100px;
+  }
+
+  .app .history-game {
+    opacity: 0;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    transition: transform 150ms linear;
+    transition: opacity 150ms linear;
+  }
+
+  .app .wrapper-hashtaghistory.-active > .history-game {
+    opacity: 1;
+    transform: translateX(200%);
   }
 }
