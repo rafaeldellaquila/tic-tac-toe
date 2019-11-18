@@ -30,7 +30,9 @@ const WrapperHashtagHistory = () => {
     };
 
     const changeHistory = key => {
+        setLastRound(key);
         setHistory(old => old.slice(0, key + 1));
+        setHistoryGame(old => old.slice(0, key + 1));
     };
     const ShowHideHistory = () => setActive(old => !!!old);
     const handleClick = id => {
