@@ -12,36 +12,43 @@ import HistoryGame from "./components/HistoryGame";
 import WrapperHashtagHistory from "./objects/WrapperHashtagHistory";
 
 const App = () => {
-  const [activeAbout, setActiveAbout] = useState("");
-  const [history, setHistory] = useState(["Start"]);
-  const [active, setActive] = useState(false);
+    const [activeAbout, setActiveAbout] = useState("");
+    const [history, setHistory] = useState(["Start"]);
+    const [active, setActive] = useState(false);
 
-  const handleClickAdd = () => setActiveAbout("-active");
+    const handleClickAdd = () => setActiveAbout("-active");
 
-  const handleClickRemove = () => setActiveAbout("");
+    const handleClickRemove = () => setActiveAbout("");
 
-  const addHistory = player => {
-    setHistory(old => [...old, `Adicionou ${player.toUpperCase()}`]);
-  };
+    const addHistory = player => {
+        setHistory(old => [...old, `Adicionou ${player.toUpperCase()}`]);
+    };
 
-  const ShowHideHistory = () => setActive(old => !!!old);
+    const ShowHideHistory = () => setActive(old => !!!old);
 
-  return (
-    <main id="main" className="app">
-      <HeaderGame onClick={handleClickAdd} />
+    const changeHistory = key => setHistory(old => old.slice(0, key + 1));
 
-      <WrapperHashtagHistory active={active}>
-        <HashtagGame callback={addHistory} />
-        <InputCheckbox onClick={ShowHideHistory} id="show" value="show" content="Mostrar eventos" />
-        <HistoryGame history={history} />
-      </WrapperHashtagHistory>
+    return (
+        <main id="main" className="app">
+            <HeaderGame onClick={handleClickAdd} />
 
-      <AboutPage className={activeAbout}>
-        <HeaderInternal onClick={handleClickRemove} />
-        <ProfileUser />
-      </AboutPage>
-    </main>
-  );
+            <WrapperHashtagHistory active={active}>
+                <HashtagGame callback={addHistory} />
+                <InputCheckbox
+                    onClick={ShowHideHistory}
+                    id="show"
+                    value="show"
+                    content="Mostrar eventos"
+                />
+                <HistoryGame history={history} onClick={changeHistory} />
+            </WrapperHashtagHistory>
+
+            <AboutPage className={activeAbout}>
+                <HeaderInternal onClick={handleClickRemove} />
+                <ProfileUser />
+            </AboutPage>
+        </main>
+    );
 };
 
 export default App;
