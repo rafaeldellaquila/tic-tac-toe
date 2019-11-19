@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="logo-tictactoe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 134.1 16.8" style="enable-background:new 0 0 134.1 16.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FCF0F8;}
+	.st1{fill:#F9B4B4;}
+</style>
+<g id="TIC_TAC_T_E" transform="translate(0 1.338)">
+	<g id="Group_11">
+		<g id="Group_3" transform="translate(0 .273)">
+			<path id="Path_1" class="st0" d="M4.2,3.1H0V0h12.3v3.1H8.1v10.6H4.2V3.1z"/>
+		</g>
+		<g id="Group_4" transform="translate(13.757 .273)">
+			<path id="Path_2" class="st0" d="M0,0h3.9v13.6H0V0z"/>
+		</g>
+		<g id="Group_5" transform="translate(19.703)">
+			<path id="Path_3" class="st0" d="M3.7,13.3c-1.1-0.6-2-1.4-2.7-2.5C0.3,9.6,0,8.4,0,7.1s0.3-2.6,1-3.7s1.6-1.9,2.7-2.5
+				C4.9,0.3,6.2,0,7.6,0C8.7,0,9.9,0.2,11,0.7c1,0.4,1.8,1.1,2.5,1.9L11,4.8c-0.8-1-2-1.6-3.2-1.6c-0.7,0-1.4,0.2-2,0.5
+				S4.7,4.5,4.4,5.1c-0.3,0.6-0.5,1.3-0.5,2s0.2,1.4,0.5,2s0.8,1.1,1.4,1.4c0.6,0.3,1.3,0.5,2,0.5c1.3,0,2.5-0.6,3.2-1.6l2.5,2.2
+				c-0.7,0.8-1.5,1.5-2.5,1.9c-1.1,0.5-2.2,0.7-3.4,0.7C6.2,14.2,4.9,13.9,3.7,13.3L3.7,13.3z"/>
+		</g>
+		<g id="Group_6" transform="translate(39.308 .273)">
+			<path id="Path_4" class="st0" d="M4.2,3.1H0V0h12.3v3.1H8.1v10.6H4.2V3.1z"/>
+		</g>
+		<g id="Group_7" transform="translate(50.73 .273)">
+			<path id="Path_5" class="st0" d="M10.9,11H5l-1,2.6H0L6.1,0h3.8L16,13.6h-4L10.9,11z M9.7,8.1L7.9,3.8L6.2,8.1H9.7z"/>
+		</g>
+		<g id="Group_8" transform="translate(66.901)">
+			<path id="Path_6" class="st0" d="M3.7,13.3c-1.1-0.6-2.1-1.4-2.7-2.5C0.3,9.6,0,8.4,0,7.1s0.3-2.6,1-3.7s1.6-1.9,2.7-2.5
+				C4.9,0.3,6.2,0,7.6,0C8.7,0,9.9,0.2,11,0.7c1,0.4,1.8,1.1,2.5,1.9L11,4.8c-0.8-1-2-1.6-3.2-1.6c-0.7,0-1.4,0.2-2,0.5
+				S4.7,4.5,4.4,5.1c-0.3,0.6-0.5,1.3-0.5,2s0.2,1.4,0.5,2s0.8,1.1,1.4,1.4c0.6,0.3,1.3,0.5,2,0.5c1.3,0,2.5-0.6,3.2-1.6l2.5,2.2
+				c-0.7,0.8-1.5,1.5-2.5,1.9c-1.1,0.5-2.2,0.7-3.4,0.7C6.2,14.2,4.9,13.9,3.7,13.3L3.7,13.3z"/>
+		</g>
+		<g id="Group_9" transform="translate(86.505 .273)">
+			<path id="Path_7" class="st0" d="M4.2,3.1H0V0h12.3v3.1H8.1v10.6H4.2V3.1z"/>
+		</g>
+		<g id="Group_10" transform="translate(123.105 .273)">
+			<path id="Path_8" class="st0" d="M11,10.7v3H0V0h10.8v3h-7v2.3h6.1v2.9H3.8v2.5L11,10.7z"/>
+		</g>
+	</g>
+</g>
+<path id="Path_9" class="st1" d="M119.2,2.7L116.5,0l-5.8,5.8L104.9,0l-2.7,2.7l5.8,5.8l-5.8,5.8l2.7,2.7l5.8-5.8l5.8,5.8l2.7-2.7
+	l-5.8-5.8L119.2,2.7z"/>
+</svg>

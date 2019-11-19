@@ -1,0 +1,12 @@
+.about-link {
+  color: #c32361;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.about-link.-light {
+  color: var(--color-zero);
+}

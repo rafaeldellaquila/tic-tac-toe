@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="logo-tictactoe" width="134.134" height="16.838" viewBox="0 0 134.134 16.838">
+    <defs>
+        <style>
+            .cls-1{isolation:isolate}.cls-2{fill:#ff8395}.cls-3{fill:#c32361}
+        </style>
+    </defs>
+    <g id="TIC_TAC_T_E" class="cls-1" data-name="TIC TAC T E" transform="translate(0 1.338)">
+        <g id="Group_11" class="cls-1" data-name="Group 11">
+            <g id="Group_3" data-name="Group 3" transform="translate(0 .273)">
+                <path id="Path_1" d="M-592.256 395.065h-4.219v-3.057h12.305v3.057h-4.2v10.573h-3.886z" class="cls-2" data-name="Path 1" transform="translate(596.475 -392.008)"/>
+            </g>
+            <g id="Group_4" data-name="Group 4" transform="translate(13.757 .273)">
+                <path id="Path_2" d="M-574.718 392.008h3.886v13.63h-3.886z" class="cls-2" data-name="Path 2" transform="translate(574.718 -392.008)"/>
+            </g>
+            <g id="Group_5" data-name="Group 5" transform="translate(19.703)">
+                <path id="Path_3" d="M-561.635 404.844a6.8 6.8 0 0 1-2.7-2.522 6.91 6.91 0 0 1-.981-3.661 6.913 6.913 0 0 1 .981-3.661 6.8 6.8 0 0 1 2.7-2.521 8.177 8.177 0 0 1 3.876-.906 8.383 8.383 0 0 1 3.4.662 6.537 6.537 0 0 1 2.512 1.909l-2.473 2.22a4.08 4.08 0 0 0-3.238-1.6 4.024 4.024 0 0 0-1.992.487 3.394 3.394 0 0 0-1.354 1.373 4.19 4.19 0 0 0-.481 2.035 4.189 4.189 0 0 0 .481 2.035 3.39 3.39 0 0 0 1.354 1.373 4.024 4.024 0 0 0 1.992.487 4.08 4.08 0 0 0 3.238-1.6l2.473 2.22a6.523 6.523 0 0 1-2.512 1.908 8.383 8.383 0 0 1-3.4.663 8.184 8.184 0 0 1-3.876-.901z" class="cls-2" data-name="Path 3" transform="translate(565.314 -391.573)"/>
+            </g>
+            <g id="Group_6" data-name="Group 6" transform="translate(39.308 .273)">
+                <path id="Path_4" d="M-530.09 395.065h-4.219v-3.057H-522v3.057h-4.2v10.573h-3.886z" class="cls-2" data-name="Path 4" transform="translate(534.309 -392.008)"/>
+            </g>
+            <g id="Group_7" data-name="Group 7" transform="translate(50.73 .273)">
+                <path id="Path_5" d="M-505.393 402.991h-5.807l-1.079 2.648h-3.964l6.064-13.63h3.827l6.084 13.63h-4.043zm-1.138-2.843l-1.766-4.362-1.766 4.362z" class="cls-2" data-name="Path 5" transform="translate(516.245 -392.008)"/>
+            </g>
+            <g id="Group_8" data-name="Group 8" transform="translate(66.901)">
+                <path id="Path_6" d="M-486.991 404.844a6.8 6.8 0 0 1-2.7-2.522 6.915 6.915 0 0 1-.981-3.661 6.918 6.918 0 0 1 .981-3.661 6.8 6.8 0 0 1 2.7-2.521 8.174 8.174 0 0 1 3.876-.906 8.38 8.38 0 0 1 3.395.662 6.532 6.532 0 0 1 2.512 1.909l-2.473 2.22a4.08 4.08 0 0 0-3.238-1.6 4.022 4.022 0 0 0-1.992.487 3.391 3.391 0 0 0-1.354 1.373 4.2 4.2 0 0 0-.481 2.035 4.2 4.2 0 0 0 .481 2.035 3.387 3.387 0 0 0 1.354 1.373 4.022 4.022 0 0 0 1.992.487 4.08 4.08 0 0 0 3.238-1.6l2.473 2.22a6.518 6.518 0 0 1-2.512 1.908 8.38 8.38 0 0 1-3.395.663 8.18 8.18 0 0 1-3.876-.901z" class="cls-2" data-name="Path 6" transform="translate(490.67 -391.573)"/>
+            </g>
+            <g id="Group_9" data-name="Group 9" transform="translate(86.505 .273)">
+                <path id="Path_7" d="M-455.447 395.065h-4.219v-3.057h12.305v3.057h-4.2v10.573h-3.886z" class="cls-2" data-name="Path 7" transform="translate(459.666 -392.008)"/>
+            </g>
+            <g id="Group_10" data-name="Group 10" transform="translate(123.105 .273)">
+                <path id="Path_8" d="M-390.755 402.659v2.979h-11.029v-13.63h10.775v2.979h-6.928v2.3h6.1v2.882h-6.1v2.492z" class="cls-2" data-name="Path 8" transform="translate(401.784 -392.008)"/>
+            </g>
+        </g>
+    </g>
+    <path id="Path_9" d="M-417.9 392.1l-2.682-2.661-5.8 5.757-5.8-5.757-2.682 2.661 5.8 5.757-5.8 5.757 2.682 2.662 5.8-5.757 5.8 5.757 2.682-2.662-5.8-5.757z" class="cls-3" data-name="Path 9" transform="translate(537.054 -389.44)"/>
+</svg>

@@ -1,0 +1,10 @@
+body {
+  background-color: var(--color-zero);
+  font-family: "Montserrat", sans-serif;
+  min-width: 290px;
+}
+
+::selection {
+  background-color: var(--color-tertiary);
+  color: var(--color-zero);
+}
